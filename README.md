@@ -1,10 +1,10 @@
 # Introduction to Python, Jupyter, Conda
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Brainhack-NY/py-basics-tutorial/HEAD)
 
-This is an introduction to using Conda and Jupyter for scientific research projects. The contents are based on materials from Neurohackademy and lessons put together by Tal Tarkoni, and has been heavily modified for Brainhack NY.
+This is an introduction to using Conda and Jupyter for scientific research projects. The contents are based on materials from Neurohackademy and lessons put together by Tal Tarkoni.
 
 ## Conda
-The hackathon's setup instructions had you install a program called `miniconda`, and we've given you a few `conda` commands to configure and install a few Python packages. 
+The setup instructions had you install a program called `miniconda`, and we've given you a few `conda` commands to configure and install a few Python packages. 
 
 ### What is Conda?
 From [conda's documentation:](https://docs.conda.io/projects/conda/en/latest/index.html):
@@ -13,6 +13,9 @@ From [conda's documentation:](https://docs.conda.io/projects/conda/en/latest/ind
 >Conda as a package manager helps you find and install packages. If you need a package that requires a different version of Python, you do not need to switch to a different environment manager because conda is also an environment manager. With just a few commands, you can set up a totally separate environment to run that different version of Python, while continuing to run your usual version of Python in your normal environment.
 
 `miniconda` is simply a minimalistic version of the much "heavier" `anaconda` package manager. We are using its commandline program named `conda` to manage our Python computing environment. If you've never used Conda before and simply followed our set-up instructions, you should only have the default `base` environment available, which contains files, packages, and their dependencies in an isolated environment that does not interact with your computer's native environment.
+
+### Pathing Review:
+Our "computing environment" is managed by a set to paths. We already use `pwd` frequently to check where we are working at in our terminal. When we use a program like `ls` or `cd`, the shell searches in a set of pre-determined paths for the programs we called. We can check what these paths are with `which`. `Conda` is an environment manager that helps us manage these paths, the most important one being `$PYTHONPATH`.
 
 ### From our set-up instructions:
 ```
