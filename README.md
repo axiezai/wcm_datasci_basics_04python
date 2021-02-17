@@ -96,7 +96,6 @@ Additional setups are required in your `base` conda environment to run interacti
 ```
 $ conda activate      # activate the base env
 (base)$ conda install -c conda-forge nodejs=11.9.0
-(base)$ pip install --user nibabel
 (base)$ jupyter labextension install @jupyter-widgets/jupyterlab-manager@2.0
 ```
 We also need to make sure our current conda environment is visible to Jupyter:
