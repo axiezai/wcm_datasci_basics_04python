@@ -3,6 +3,12 @@
 
 This is an introduction to using Conda and Jupyter for scientific research projects. The contents are based on materials from Neurohackademy and lessons put together by Tal Tarkoni.
 
+### Files:
+ - `environment.yml` - `conda` environment for this repository.
+ - `01-jupyter-notebooks.ipynb` - Overview of jupyter notebook functionality and it's compatibility with Python.
+ - `assignment` - Directory for weekly assignment. 
+ - `python_slides.ipynb` - `rise` slides, only compatible with `jupyter notebook` for presentation view.
+
 ## Conda
 The setup instructions had you install a program called `miniconda`, and we've given you a few `conda` commands to configure and install a few Python packages. 
 
