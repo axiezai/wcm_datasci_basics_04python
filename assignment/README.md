@@ -19,6 +19,8 @@ Using the same tamagotchi pet script we created during class, do the following (
 
  3. Modify the feed action, so that when you feed you pet, both hunger and happiness will increase. But your pet should receive less happiness from feeding than petting. 
 
+ 4. Make sure you pet's new happiness data is saved and can be loaded with the same `.csv` file.
+
 
 ## Part 2
 
