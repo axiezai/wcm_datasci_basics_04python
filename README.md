@@ -36,10 +36,13 @@ Environment managers such as `conda`, `brew`, and `apt` can conflict with each o
 
 ### Managing environments with `conda`:
 Being able to manage isolated environments means we can create project specific envrionments and share them! We can view all of our current environments with 
+
 ```
 $ conda env list
 ```
+
 Now let's imagine we need to initiate a project where we visualize and preprocess diffusion-weighted MR images with [`dipy`](https://dipy.org/documentation/1.3.0./installation/). We don't want this to interfere with our nice `base` envrionment, and we want to share our work with our colleagues after we are done. We can create a new isolated environment with
+
 ```
 $ conda create --name dwi_py
 ```
