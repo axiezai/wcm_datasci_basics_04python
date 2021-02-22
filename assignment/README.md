@@ -2,7 +2,7 @@
 
 This time, create your own GitHub repository locally with `git init assignment4` or some other folder name to your liking. In this repository: 
 
- 1. Create a `conda` environment with `python`, `numpy`, `scipy`, `ipython`, `jupyterlab`, and `matplotlib`. Name the environment to your liking.
+ 1. Create a `conda` environment with `python`, `numpy`, `scipy`, `pandas`, `ipython`, `jupyterlab`, and `matplotlib`. Name the environment to your liking.
  2. Export this `conda` environment with the `--from-history` option into a file named `environment.yml`. 
  3. Activate this environment and work on the assignment in this environment.
  4. You can either `git clone` the `wcm_datasci_basics_04python` repository to your laptop, and copy (`scp`, `cp`, or `rsync` all works) the `pypet` script to your assignment repository. Or copy the raw python code from GitHub and paste into a new file you create in your assignment repo with (`touch`). 
