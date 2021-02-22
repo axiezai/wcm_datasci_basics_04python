@@ -11,9 +11,9 @@ Make sure you are using the appropriate `conda` environment when working on a Py
 
 ## Part 1
 
-Using the same tamagotchi pet script we created during class, do the following (I expect you to make appropriate commits based on your added functionality, points will be taken off for a repository with only 1 commit history entry):
+Using the same tamagotchi pet script we created during class, do the following (I expect you to make appropriate commits based on your added functionality, points will be taken off for a repository with only 1 commit history entry). No need to put any answers here in the markdown file, I will review your final script that you push to Github.:
 
- 1. Add a happiness meter that decreases over time at half the rate of hunger's rate. 
+ 1. Add a happiness meter that decreases over time at half the rate of hunger. 
 
  2. Add a pet action, when you pet your tamagotchi pet, the happiness will increase. How happy your pet gets is up to you. 
 
