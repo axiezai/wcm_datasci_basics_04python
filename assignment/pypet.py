@@ -45,7 +45,9 @@ while (not(quit)):
         quit = True
     if answer == 'feed':
         hunger = hunger - 20
+        happiness = happiness + 10 
         print("hunger level: ", hunger)
+        print("happiness level: ", happiness)
         if hunger <= 0:
             hunger = 0
             print("Pet is full")
