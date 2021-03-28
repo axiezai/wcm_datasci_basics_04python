@@ -72,4 +72,5 @@ while (not(quit)):
 
 df.loc['hunger'] = hunger
 df.loc['age'] = age
+df.loc['happiness'] = happiness
 df.to_csv("pypet.csv")
