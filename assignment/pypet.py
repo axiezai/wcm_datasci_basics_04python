@@ -52,13 +52,16 @@ while (not(quit)):
     if answer == 'play':
         print("You played with the pet")
         hunger = hunger + 10 + (40 * np.random.random())
-    
+    if answer == 'petting':
+        print("You petted the pet")
+        happiness = happiness + 10 + (40 * np.random.random())    
+
     # Hunger manager:
     hunger = hunger + int(time_passed)
     if hunger > 100:
         hunger = 100
     hunger = int(hunger)
-    
+
     #Happiness manager
     happiness = happiness - int(time_passed)/2
     if happiness < 0:
