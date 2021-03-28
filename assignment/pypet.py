@@ -16,6 +16,7 @@ pet = "<O.O>"
 
 # metrics:
 hunger = int(df.loc['hunger'].values) 
+happiness = int(time_passed/2)
 age = int(df.loc['age'].values) 
 
 # Add interactions:
@@ -57,6 +58,12 @@ while (not(quit)):
     if hunger > 100:
         hunger = 100
     hunger = int(hunger)
+    
+    #Happiness manager
+    happiness = happiness - int(time_passed)/2
+    if happiness < 0:
+        happiness = 0
+    happiness = int(happiness)
 
 df.loc['hunger'] = hunger
 df.loc['age'] = age
